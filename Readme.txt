@@ -1,0 +1,1 @@
+Practise project for golang
