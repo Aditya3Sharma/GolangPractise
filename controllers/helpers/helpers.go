@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
-var collection = connection.GetCollection()
+var collection = connection.GetEmployeeCollection()
 
 func InsertOneEmployee(employee employee.Employee) {
 
